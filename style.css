@@ -1,0 +1,54 @@
+/* Center the button horizontally */
+.btn-custom {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+  }
+  
+
+
+
+@media (max-width: 576px) {
+    .custom-height {
+        height: 40vh; /* Adjust the height as needed for small screens */
+    }
+}
+
+@media (max-width: 320px) {
+    .custom-height {
+        height: 29vh; /* Adjust the height as needed for small screens */
+    }
+}
+
+@media (max-width: 425px) {
+    .custom-height {
+        height: 29vh; /* Adjust the height as needed for small screens */
+    }
+}
+
+
+/* Center the button horizontally */
+.btn-custom {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-custom:hover {
+    background-color: yellow;
+    color: black; /* Change text color to black for better visibility */
+}
+
+
+img:hover {
+    cursor: pointer;
+  }
+  /* Add this CSS to your stylesheet */
+.navbar {
+    background-color: transparent !important; /* Add !important to override Bootstrap styles */
+    backdrop-filter: blur(100px); /* This will add a slight blur effect to the content behind the navbar */
+    border-bottom: none; /* Remove the bottom border if needed */
+}

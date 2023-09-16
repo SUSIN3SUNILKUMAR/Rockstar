@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <title>Responsive Navbar</title>
+</head>
+
+<body>
+  <!--------------------------------------------------   navbar   ------------------------------------------------------------------>
+
+  <nav class="sticky-top container-fluid navbar navbar-expand-lg navbar-dark " style="background-color: rgb(161, 24, 24); border-bottom:1px solid rgb(32, 28, 28) ; position: sticky; z-index: 10;">
+   
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-list" style="font-size: 33px;"></i>
+      </a>
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" class="img-fluid" style="height: 60px" alt="" />
+      </a>
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-person-circle" style="font-size: 33px;"></i>
+      </a>
+    </div>
+  </nav>
+  <div class=" container-fluid  navbar-expand-lg navbar-dark" style="background-color: black; height: 5em;" >
+    <div class="container-fluid">
+    
+    </div>
+  </div>
+
+  <!------------------------------------------------section -- one ---------------------------------------->
+
+  <section>
+    <div class="row g-0">
+      <div class="col-sm-12 col-md-12 col-lg-8 custom-height " style="z-index: 0;">
+        <!-- Swiper Container -->
+        <div class="swiper-container" style="width: 100%; overflow:hidden">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <img src="1.avif" class="img-fluid" alt="the_image" style="max-width: 100%; height: auto;" />
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <img src="2.avif" class="img-fluid" alt="" style="max-width: 100%; height: auto;" />
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <img src="3.avif" class="img-fluid" alt="" style="max-width: 100%; height: auto;"/>
+            </div>
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <img src="red.avif" class="img-fluid" alt="" style="max-width: 100%; height: auto;"/>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4  text-light "  style="z-index: 0;background-color: black;">
+        <div class="container-fluid text-wrap ms-3 mt-5">
+          <p class="fs-4">Red Dead Redemption</p>
+          <h1 class="fs-2 mb-5">Now on Nintendo Switch and PS4</h1>
+        </div>
+        <div>
+          <!-- Slider Input -->
+          
+          <div>
+            <button type="button" class="btn btn-outline-light d-block d-sm-inline mt-5 ms-5 btn-custom"
+              style="width: 75%; height: 10vh;">Watch-Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------------card implementing-------------------------card row one----------------------->
+<section class="" style="background-color: #0b0b0b;">
+  <div class="container" >
+    
+    <div class="row pt-5"  >
+      <!-- Card 1 -->
+      <h2 class="text-light">News wire</h2> 
+      <div class="col-sm-12 col-md-4 pt-4 " >
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="4.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body container-fluid">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="5.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="6.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+ <!-------------------------------card implementing-------------------------card row second----------------------->
+ <section class="" style="background-color: #0b0b0b;">
+  <div class="container" >  
+    
+    <div class="row pt-5" >
+      <!-- Card 1 -->
+      <div class="col-sm-12 col-md-4 col-lg-a   col-xl-a col-xsl   pt-4 ">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="7.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="8.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">          
+          <img src="9.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+</section>
+<section class="" style="background-color: #0b0b0b;">
+  <div class="container" >  
+    
+    <div class="row pt-5" >
+      <!-- Card 1 -->
+      <div class="col-sm-12 col-md-4 col-lg-a   col-xl-a col-xsl   pt-4 ">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="10.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="11.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">          
+          <img src="12.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+</section>
+<section class="" style="background-color: #0b0b0b;">
+  <div class="container" >  
+    
+    <div class="row pt-5" >
+      <!-- Card 1 -->
+      <div class="col-sm-12 col-md-4 col-lg-a   col-xl-a col-xsl   pt-4 ">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="3.avif" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">
+          <img src="1.avif" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-4 pt-4">
+        <div class="card text-light border border-secondary" style="background-color: #0b0b0b;">          
+          <img src="2.avif" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<footer class="bg-black text-white " style="padding-top: 5em;">
+  <div class="container py-4">
+    <div class="row">
+      <!-- Top-left links -->
+      <div class="col-md-6 col-sm-12">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">Contact</li>
+          <li class="list-inline-item">Careers</li>
+          <li class="list-inline-item">Subscribe</li>
+        </ul>
+      </div>
+      <!-- Top-right language selector dropdown -->
+      <div class="col-md-6 col-sm-12 text-end">
+        <div class="dropdown">
+          <button
+            class="btn btn-dark dropdown-toggle"
+            type="button"
+            id="languageDropdown"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="width: 130px; height: 40px; border: 1px solid white;"
+          >
+            Select Language
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Spanish</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-3 mb-4" style="border-color: white;">
+    <div class="row">
+      <!-- Bottom-left links -->
+      <div class="col-md-6 col-sm-12">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">Corporate</li>
+          <li class="list-inline-item">Privacy</li>
+          <li class="list-inline-item">Cookie Settings</li>
+          <li class="list-inline-item">Cookie Policy</li>
+          <li class="list-inline-item">Legal</li>
+          <li class="list-inline-item">Do Not Sell My Personal Information</li>
+        </ul>
+      </div>
+      <!-- Bottom-right social icons -->
+      <div class="col-md-6 col-sm-12 text-end">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item"><a href="#"><i class="bi bi-discord"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-youtube"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      slidesPerView: 1,
+      spaceBetween: 10,
+    });
+
+    // Get references to the slider, image, and text elements
+    const imageSlider = document.getElementById('imageSlider');
+    const image = document.querySelector('.img-fluid');
+    const textElement = document.querySelector('.custom-height h1');
+
+    // Define an array of image sources and corresponding text
+    const images = ['pic1.jpeg', 'pic2.jpeg', 'pic3.jpeg'];
+    const texts = [
+      'Now on Nintendo Switch and PS4',
+      'Another Text for Image 2',
+      'Yet Another Text for Image 3',
+    ];
+
+    // Add an event listener to the slider input
+    imageSlider.addEventListener('input', () => {
+      // Determine the value of the slider
+      const sliderValue = parseInt(imageSlider.value);
+
+      // Update the image source and text based on the slider value
+      if (sliderValue >= 1 && sliderValue <= images.length) {
+        image.src = images[sliderValue - 1];
+        textElement.textContent = texts[sliderValue - 1];
+      }
+    });
+
+    
+  </script>
+</body>
+
+</html>
